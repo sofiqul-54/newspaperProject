@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Daily Sun</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="col-md-offset-1 col-lg-10 col-md-10 col-sm-10">
+            <div class="row">
+                <img src="images/20180526115759.gif" width="100%" height="100px" alt="Header_Advertisemebt">
+            </div><br>
+            <div class="row">
+                <div class="col-md-4 logo col-lg-4 col-sm-4">
+                    <img src="images/logo.png" width="auto" height="80px">
+                </div>
+                <div class="col-md-8 col-lg-8 col-sm-8">
+                    <div class="row">
+                        <div>
+                            <ul class="topmenu pull-right">
+                                ||<a href="$">today's newspaper</a>||
+                                <a href="#">magazine</a>||
+                                <a href="#">e-paper</a>
+                            </ul>
+                            <div class="header_time pull-right">
+                                <p>
+                                    <i class="fa fa-calendar" style="margin-top: -1px"></i>
+                                    Sunday, 27 May, 2018
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="header_nav pull-right">
+
+                            <div class="pull-left">
+                                <p>
+                                    <a class="pull-right" style="color:#ff6000; font-weight: bold;
+                                       margin-left: 5px;font-size: 16px;" style="margin-right: 20px">বাংলা সংস্করণ</a>
+                                </p>
+                            </div>
+                            <a><img src="images/social_icons.png"/></a>
+                            <div class="search ">
+                                <form id="search_form" method="post" action="#">
+                                    <input id="s" type="text">
+                                    <input id="searchform" type="submit" value="search">
+                                    <input type="hidden" name="post_type" value="post">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <!--Tool_Bar Start-->
+            <div class="row">
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">home_icon</a>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    national<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">politics</a></li>
+                                    <li><a href="#">judiciary</a></li>
+                                    <li><a href="#">campus</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    economy<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#">business</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">world</a></li>
+                            <li><a href="#">sports</a></li>
+                            <li><a href="#">entertainment</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    life style<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">health</a></li>
+                                    <li><a href="#">travel</a></li>
+                                    <li><a href="#">sci-tech</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">arts</a></li>
+                            <li><a href="#">nature</a></li>
+                            <li><a href="#">corporate</a></li>
+                            <li><a href="#">opinion</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    more<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">feature</a></li>
+                                    <li><a href="#">crime</a></li>
+                                    <li><a href="#">advice</a></li>
+                                    <li><a href="#">sun jobs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--Breaking_News Start-->
+            <div class="row">
+                <div class="col-md-2 red" style="color: white" b><h4>Breaking News:</h4></div>
+                <div class="col-md-10 ash" style="color: white" b>
+                    <marquee>
+                        <ul>
+                            <a title="Hasina, Modi discuss bilateral issues" href="#">Hasina, Modi discuss bilateral issues</a> &ensp; &ensp;&ensp;
+                            <a title="Eight ‘human traffickers’ held in Faridpur" href="#">Eight ‘human traffickers’ held in Faridpur</a> &ensp; &ensp;&ensp;
+                            <a title="FIFA announces 2018 World Cup slogans" href="#">FIFA announces 2018 World Cup slogans</a> &ensp; &ensp;&ensp;
+                            <a title="Sri Lanka cricketer Dhananjaya’s father shot dead in Colombo" href="#">Sri Lanka cricketer Dhananjaya’s father shot dead in Colombo</a> &ensp;&ensp; &ensp;
+                            <a title="Bomb blast in Toronto restaurant wounds 15" href="#">Bomb blast in Toronto restaurant wounds 15</a>
+                        </ul>
+                    </marquee>
+                </div>
+            </div>
+            <!--Advertisement Start-->
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="images/header_add_2.gif" width="100%" alt="advertisement">
+                </div>
+            </div><br>
+            <!--News Start 1st Row-->
+            <!--|||----------|||-->
+            <!--News Start 1st Column-->
+            <div class="col-md-12">
+                <div class="col-md-5">
+                    <img src="images/pm_Hasina-Modi-Shantiniketan_picture.jpg" width="100%" alt="PM_Hasina-Modi-Shantiniketan">
+                    <a href="#">Hasina, Modi discuss bilateral issues</a><br>
+                    <p style="text-align:justify">Issues relating to bilateral interests and international concerns come up for discussions,
+                        PM's Press Secretary Ihsanul Karim saya after the meeting</p>
+                </div>
+
+                <!--News Start 2nd Column-->
+                <div class="col-md-4">
+                    <div class="con2col" style="color: white;"><h4>&ensp;top news stories</h4></div>
+                    <table width="100%" height=300px">
+                        <tr>
+                            <td><a href="#">PM hails India for 'standing' beside Bangladesh</a></td> 
+
+                        </tr>
+
+                        <tr>
+
+                            <td><a href="#">Bangladesh Bhaban to remain as symbol of cultural relation: Modi</a></td>
+                        </tr>
+
+                        <tr>
+
+                            <td><a  href="">New era of Indo-Bangla ties begins: PM</a></td>
+                        </tr>
+
+                        <tr>
+
+                            <td><a  href="#">Hasina, Modi inaugurate ‘Bangladesh Bhaban</a></td>
+                        </tr>
+
+                        <tr>
+
+                            <td><a  href="#">10 more killed in ‘gunfights’ across country</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Priyanka asks world to learn from Bangladesh</a></td>
+                        </tr>
+                        <tr style="background: #EEF0EF">
+                            <td><p style="text-align:right"><a class="read_more" href="./top-news">More</a></p></td>
+                        </tr>
+                    </table>
+
+
+                </div>
+                <div class="col-md-3">
+                    <div class="con2col" style="color: white;"><h4>&ensp;spotlight</h4></div>
+                    <img src="images/Environment_Day-daily-sun.jpg" width="100%">
+                    <a href="#"><h4 font-style="bold">World Environment Day</h4></a>
+                    <p>The theme of this year’s day is:<br>
+                        ‘Beating plastic pollution’ while the <br>
+                        slogan is: ‘If you can't reuse it, refuse it</p>
+                </div>
+                <!--Advertisement Start-->
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <img src="images/add_2.gif" width="100%" alt="advertisement">
+                    </div>
+                </div><hr/>
+                <!--2nd row 1st column news Start-->
+                <div class="row">
+                    <div class="col-md-9">                   
+                        <div class="col-md-7">
+                            <div class="con2col" style="color: white;"><h4>&ensp;national</h4></div> <br>
+                            <div class="col-md-7">
+                                <img src="images/arrest-daily-sun.jpg" width="100%">
+                                <a href="#">Anti-Drugs Drive: 224 held in 7 districts, mostly addicts</a>
+                                <p>In Satkhira, police arrested 40, including seven suspected drug traders,
+                                    in an overnight anti-drug drive in different parts of the district till Monda
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="#">People not to respond to BNP’s call for movement: Nasim</a><hr/>
+                                <a href="#">Government urged to submit documents on Rohingya persecution to ICC</a><hr/>
+                                <a href="#">EU envoys for probing deaths of alleged criminal suspects</a><hr/>
+                                <a href="#">Prime Minister hosts iftar for political leaders</a>
+                            </div>
+                            <div class="col-md-12" style="background-color: #EEF0EF">
+                                <p style="text-align: right"><a>More</a></p>
+                            </div>
+                        </div>
+                        <!--2nd row 2nd column news Start-->
+                        <div class="col-md-5">
+                            <div class="con2col" style="color: white;"><h4>&ensp;world</h4></div> <br> 
+                            <div class="col-md-5">
+                                <img src="images/Jordan_PM-daily-sun.jpg" width="100%">
+                                <a href="#">Jordan’s Prime Minister resigns</a>
+                                <p>Hani Mulki submits the resignation of his government to King Abdullah,
+                                    according to a Royal Court statement</p>
+                            </div>
+                            <div class="col-md-7">
+                                <a href="#">German government seeks clarification from US ambassador</a><hr/>
+                                <a href="#">Seven killed in Kabul suicide blast near clerics' gathering</a><hr/>
+                                <a href="#">Palestinian shot dead trying to breach Gaza border: Israel army</a><hr/>
+                                <a href="#">Netanyahu heads to Europe with Iran on his mind </a>
+                            </div>
+                            <div class="col-md-12" style="background-color: #EEF0EF">
+                                <p style="text-align: right"><a>More</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><br>
+                                <img src="images/10139191319833149951.png" width="100%" alt="advertise">
+                                <hr/>
+                                <!---------------------Start 3rd row 1st Column---------------------------->
+                                <div class="col-md-4 box2 box2-section-1" data-page="box2">
+                                    <div class="con2col" style="color: white;"><h4>&ensp;Special</h4></div><br>
+                                    <img src="images/daily_sun_Rohingya_return_picture.jpg" width="100%" alt="Rohingya_return_picture">
+                                    <a href="#">Myanmar agrees to take back Rohingyas within 2 years</a>
+                                    <p>India and Myanmar held a foreign secretary-level meeting in New Delhi on Friday to discuss different issues,
+                                        including Rohingya repatriation from Bangladesh</p><br><hr/>
+                                    <a href="#">Substandard vermicelli floods city markets </a><hr/>
+                                    <a href="#">Experts for introducing national health insurance </a><hr/>
+                                    <a href="#">Early marriage ends study of many schoolgirls </a>
+
+                                </div>
+                                <!----------------------Start 3rd row 3rd Column--------------------------->
+                                <div class="col-md-4">
+                                    <div class="con2col" style="color: white;"><h4>&ensp;Opinion</h4></div><br>
+                                    <img src="images/dailysun_Yemen.jpg" width="100%" height="137px" alt="Yemen_Fighting">
+                                    <a href="#">UN says over 25,000 people fled Yemen fighting at Hodeida</a>
+                                    <p>The campaign to seize control of Hodeida threatens to worsen Yemen's humanitarian situation,
+                                        as Hodeida's port is the country's main entry point for most humanitarian aid</p><br><hr/>
+                                    <a href="#">Abortion to avoid birth defects is similar to Nazi crimes: Pope </a><hr/>
+                                    <a href="#">Trump threatened to send 25 million Mexicans to Japan: report </a><hr/><br>
+                                    <a href="#">Queen Elizabeth celebrates 92nd birthday </a>
+                                    <table class="col-md-12" style="background-color: #EEF0EF">
+                                        <tr>
+                                            <td style="text-align: right"><a href="#">more</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!----------------------Start 3rd row 3rd Column--------------------------->
+                                <div class="col-md-4">
+                                    <div class="con2col" style="color: white;"><h4>&ensp;arts</h4></div><br>
+                                    <img src="images/dailysun_rapper.jpg" width="100%" height="137px" alt="rapper">
+                                    <a href="#">XXXTentacion, controversial rapper, shot dead in Florida aged 20</a>
+                                    <p>The rapper, who first found an audience by uploading songs to the website SoundCloud,
+                                        had been hailed as a breakthrough talent and tributes have been pouring in from hip-hop.</p><br><hr/>
+                                    <a href="#">Social media also changes nature of Eid greetings </a><hr/>
+                                    <a href="#">Hawking's ashes to be buried in Westminster Abbey </a><hr/>
+                                    <a href="#">Photographer in Nobel prize scandal, charged with rape </a>
+                                    <table class="col-md-12" style="background-color: #EEF0EF">
+                                        <tr>
+                                            <td style="text-align: right"><a href="#">more</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div><br><hr/>
+                        <div class="col-lg-12">
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;sports</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/Steve-Rhodes-daily-sun.jpg" width="100%" alt="Steve-Rhodes">
+                                    <a href="#">Rhodes optimists before Tigers tour of West Indies</a>
+                                    <p>The former English team wicketkeeper Rhodes was speaking at his first formal
+                                        appearance before pressmen in Mirpur on Wednesday</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#">England eye 500 after smashing new ODI record</a><hr/>
+                                    <a href="#">Messi shares video of Bangladesh fans (Watch)</a><hr/>
+                                    <a href="#">England win series, break records with thumping 242-run </a><hr/>
+                                    <a href="#">Sri Lanka captain Chandimal banned for ball tampering</a><hr/>
+                                </div>
+                                <div class="col-md-12"><br>
+                                    <table class="col-md-12" style="background-color: #EEF0EF">
+                                        <tr>
+                                            <td style="text-align: right"><a href="#">more</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;entertainment</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/Natalie-Portman-120180620085432.jpg" width="100%" alt="Natalie-Portman">
+                                    <a href="#">Hollywood stars reject Trump immigrant policy</a>
+                                    <p>Hollywood celebrities like Natalie Portman, Mindy Kaling and John Legend have spoken out against
+                                        the controversial illegal immigration policy</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#">Who is Anukreethy Vas?</a><hr/>
+                                    <a href="#">Priyanka Chopra writing memoir on her ‘private’ journey</a><hr/>
+                                    <a href="#">Priyanka Chopra too eager to see Nick Jonas’ performance at</a><hr/>
+                                    <a href="#">Alia Bhatt injured on the sets of</a><br><br><hr/><br>
+                                </div>
+                                <div class="col-md-12"><br><br>
+                                    <table class="col-md-12" style="background-color: #EEF0EF">
+                                        <tr>
+                                            <td style="text-align: right"><a href="#">more</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12"><br><hr/>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;health</h4></div><br>
+                                <img src="images/o-CHILD-BLOOD-TEST-facebook-862x431.jpg" width="100%" alt="o-CHILD-BLOOD-TEST-facebook">
+                                <a href="#">Young people have a higher risk of contracting diabetes and cancer in middle-age</a>
+                                <p>The study, commissioned by British charity Health Foundation, showed that people currently in their 20s and 30s will be
+                                    at a higher risk of these “lifestyle” diseases in 30 years’ time</p><hr/>
+                                <a href="#">People with gum disease at risk of rheumatoid arthritis: Study </a><hr/>
+                                <a href="#">Young diabetics more at risk of Parkinson’s says a study </a><hr/>
+                                <a href="#">Red meat allergy can put your heart at risk: Study </a><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;feature</h4></div><br>
+                                <img src="images/dailysun_first-ladies1.jpg" width="100%" alt="first-ladies1">
+                                <a href="#">All 5 first ladies speak out on family separations at border</a>
+                                <p>Melania Trump, in an unusual united political front expressing horror at children
+                                    separated from their parents at the U.S.-Mexico border.
+                                    Mrs. Trump did not go as far as some of her predecessors, </p><hr/>
+                                <a href="#">US separate 2,000 children in six weeks </a><hr/>
+                                <a href="#">Messi illuminating a small Russian town </a><hr/>
+                                <a href="#">Exchange of Eid Cards: A tradition fading away </a><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;nature</h4></div><br>
+                                <img src="images/afishiscaugh.jpg" width="100%" alt="afishiscaugh">
+                                <a href="#">Egypt’s shrinking ‘Pharaonic Sea’ has fishermen worried</a>
+                                <p>Egypt’s shrinking freshwater “Pharaonic Sea” has residents in its nearly 50
+                                    surrounding fishing Since then, inhabitants in the The worry has fuelled
+                                    anxious meetings regularly surrounding villages worried to it as the “dead</p><hr/>
+                                <a href="#">Allergies, glaciers, and pikas: climate change in action </a><hr/>
+                                <a href="#">World's oldest Sumatran orangutan dies aged 62 </a><hr/>
+                                <a href="#">US property crisis looms as sea level rises, experts warn </a> <br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br><hr/>
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;economy</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/Czech_Republic-investment-daily-sun.JPG" width="100%" alt="Czech_Republic-investment">
+                                    <a href="#">Czech Republic ready to invest in Bangladesh: Envoy</a>
+                                    <p>Ambassador of the Czech Republic to Bangladesh Milan Hovorka on Wednesday expressed his country’s readiness to
+                                        invest in different sectors in Bangladesh.    Hovorka,…</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#">Asian markets tumble as Trump tariffs spark trade war fear</a><hr/>
+                                    <a href="#">Climate financing by MDBs rises to a 7-year high of $35.2bn</a><hr/>
+                                    <a href="#">Asian markets lower after hawkish Fed, fresh trade war fears</a><hr/>
+                                    <a href="#">Rural people changing fate with micro-credit</a><hr/><br>
+                                </div>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;business</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/daily_sun_EU_to_launch_counter-tariffs_picture.jpg" width="100%" alt="daily_sun_EU_to_launch_counter-tariffs_picture">
+                                    <a href="#">EU to launch counter-tariffs against US on Friday</a>
+                                    <p>American exports such as blue jeans, motorbikes and bourbon whiskey will be targeted, trade commissioner Cecilia Malmstrom confirms</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#">Audi CEO Rupert Stadler arrested in Germany</a><hr/>
+                                    <a href="#">Budget session resumes today</a><hr/>
+                                    <a href="#">Egypt hikes fuel prices as part of austerity drive</a><hr/>
+                                    <a href="#">China hits back as US trade tensions threaten economy</a><hr/><br><br><br><br><br>
+                                </div>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br><hr/>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;odd news</h4></div><br>
+                                <img src="images/RussiaWithLove.jpg" width="100%" height="138px" alt="RussiaWithLove">
+                                <a href="#">Russians, foreigners seek love at World Cup</a>
+                                <p>Moscow's World Cup fan zone, built on the doorstep of the city's iconic main university, has become a "flirt zone," joked a local paper </p><br><hr/>
+                                <a href="#">Python selfie puts Indian forest ranger in tight spot (Video) </a><hr/>
+                                <a href="#">Indian Telangana local body chief kicks woman in the chest </a><hr/>
+                                <a href="#">Indonesian woman swallowed by 23-foot-long python </a><br><br><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;tips</h4></div><br>
+                                <img src="images/dailysun_yoga-day.jpg" width="100%" height="138px" alt="dailysun_yoga-day">
+                                <a href="#">Get hands on healthy food this yoga day</a>
+                                <p>The world is celebrating International Yoga Day today so make sure you are doing your bit with enthusiasm</p><br><hr/>
+                                <a href="#">Use natural oils, shampoo regularly in monsoon </a><hr/>
+                                <a href="#">Start your day early to cut depression </a><hr/>
+                                <a href="#">Move closer to God for better sleep quality </a><br><br><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;travel</h4></div><br>
+                                <img src="images/080517_Singapore.jpg" width="100%" height="138px" alt="080517_Singapore">
+                                <a href="#">5 Instagram-worthy locations perfect for monsoons</a>
+                                <p>Here is a list of perfect getaways to experience that monsoon magic </p><br><br><br><hr/>
+                                <a href="#">7 must-see places in Russia </a><hr/>
+                                <a href="#">Palmerston Island, where everyone shares surname </a><hr/>
+                                <a href="#">Bathing naked with strangers? Welcome to the Japanese onsen </a> <br><br><br><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br><hr/>                       
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;sci-tech</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/dailysun_Instagram.jpg" width="100%" alt="dailysun_Instagram">
+                                    <a href="#">Instagram pins hopes on vertical video</a>
+                                    <p>Facebook's main service is increasingly seen by teenagers and 20-somethings as a
+                                        place better-suited for their parents, or even grandparents</p></div>
+                                <div class="col-md-5">
+                                    <a href="#">Instagram pins hopes on vertical video</a><hr/>
+                                    <a href="#"> Facebook to offer interactive game shows on video platform</a><hr/>
+                                    <a href="#"> Microsoft staff demand firm ends Border Patrol contract</a><hr/>
+                                    <a href="#">New rare black holes spotted in space, evidence suggests</a><hr/><br>
+                                </div>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="con2col" style="color: white;"><h4>&ensp;lifestyle</h4></div><br>
+                                <div class="col-md-7">
+                                    <img src="images/dailysun_make-up.jpg" width="100%" alt="dailysun_make-up">
+                                    <a href="#">Mistakes to avoid while applying make-up</a>
+                                    <p>If you have dry skin, any kind of moisturiser can be used where as if you have an
+                                        oily skin then only water based foundations should be used</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#">Anukreethy Vas is Femina Miss India World 2018</a><hr/>
+                                    <a href="#">How food ads intensify unhealthy cravings</a><hr/>
+                                    <a href="#">Beauty rituals to follow during monsoon</a><hr/>
+                                    <a href="#">Joggers or Chinos or Denims: How to pick the perfect pair of trousers</a><hr/><br><br>
+                                </div>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br><hr/>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;front page</h4></div><br>
+                                <img src="images/common-pic-thumbs.png" width="100%" alt="common-pic-thumbs">
+                                <a href="#">Old Dhaka sitting on a bomb</a>
+                                <p>Around eight years after the Nimtoli fire tragedy, thousands of people living 
+                                    in parts of densely-populated Old Dhaka are still exposed to high risks of fire
+                                    accidents due to extremely hazardous stocks…</p><hr/>
+                                <a href="#">‘Don’t take fruits eaten by bat to stay safe from Nipah virus’</a><hr/>
+                                <a href="#">New law soon to try drug kingpins: PM</a><hr/>
+                                <a href="#">Ronaldo delivers again as Portugal down Morocco </a><br><br><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;back page</h4></div><br>
+                                <img src="images/common-pic-thumbs.png" width="100%" alt="common-pic-thumbs">
+                                <a href="#">51 held in anti-drug drive in capital </a>
+                                <p>Police arrested 51 suspected drug dealers and addicts in a massive raid on a listed
+                                    drug spot in the capital on Wednesday. About 700 Yaba tablets were also seized in the
+                                    drive that was conducted at Geneva…</p><hr/>
+                                <a href="#">Hearing on Rohingya issue held in ICC</a><hr/>
+                                <a href="#">Mystery shrouds Jahid’s death</a><hr/>
+                                <a href="#">Khaleda enjoying huge privileges in jail: Anisul </a><br><br><br><br>                          
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="con2col" style="color: white;"><h4>&ensp;metropolis</h4></div><br>
+                                <img src="images/common-pic-thumbs.png" width="100%" alt="common-pic-thumbs">
+                                <a href="#">Eid returnees happy over services provided by firefighters</a>
+                                <p>Eid passengers travelling through Shimulia Ghat, one of the main gateways to the
+                                    southern region, are happy over the services being provided by Bangladesh Fire Service
+                                    and Civil Defence (FSCD). FSCD personnel…</p>
+                                <a href="#">Czech Republic keen to invest in Bangladesh </a><hr/>
+                                <a href="#">Flood situation static in eastern region </a><hr/>
+                                <a href="#">20-party to contest with single candidate in each of 3 cities </a><br><br><br>
+                                <table class="col-md-12" style="background-color: #EEF0EF">
+                                    <tr>
+                                        <td style="text-align: right"><a href="#">more</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--2nd row 3rd column news Start-->   
+                    <div class="col-md-3">
+                        <img src="images/20180531044636.gif" width="100%">
+                        <div class="col-md-12">
+                            <div class="col-md-7" style="text-align: left">
+                                <a href="#">latest news</a>
+                            </div>
+                            <div class="col-md-5" style="text-align: left">
+                                <a href="#">popular</a>
+                            </div>
+                        </div><br><br><hr/>
+                        <a href="#">Ronaldo seeks encore against ‘battle-hardened’ Morocco</a><hr/>
+                        <a href="#">UN refugee agency: Record 68.5 million displaced in 2017</a><hr/>
+                        <a href="#">New Zealand women footballers rebel against coach</a><hr/>
+                        <a href="#">Brazil seeks FIFA clarification over VAR</a><hr/>
+                        <a href="#">India's northeast flood death toll rises to 23</a><br><br><br><br>
+                        <div class="col-md-12">
+                            <div class="con2col" style="color: white;"><h3>&ensp;Budget 2018-2019</h3></div><br>
+                            <a href="#">Parliament passes Supplementary Budget</a><hr/>
+                            <a href="#">estore discipline in banking sector, MPs to Muhith </a><hr/>
+                            <a href="#">BGMEA seeks withdrawal of source tax for 3 years </a><hr/>
+                            <a href="#">Budget to benefit both rich and poor, says Tofail Ahmed</a>
+                        </div>
+                        <div class="col-md-12"><br><br>
+                            <div class="con2col" style="color: white;"><h3>&ensp;Rohingya Crisis 2017</h3></div><br>
+                            <img src="images/daily_sun_Rohingya_influx_picture.jpg" width="100%" alt="daily_sun_Rohingya_influx_picture">
+                            <a href="#">Hearing on Rohingya issue held in ICC</a><hr/>
+                            <a href="#">World Refugee Day and Rohingyas in Bangladesh</a><hr/>
+                            <a href="#">Will continue to help world’s most vulnerable refugees: US</a><hr/>
+                            <a href="#">Int'l community urged to step up efforts to help Rohingya
+                                ‘Press Myanmar on Rohingya return’</a><hr/>
+                            <a href="#">Rohingyas put acute strain on host communities in Cox’s Bazar</a>
+                        </div>
+                        <div class="col-md-12"><br><br>
+                            <div class="con2col" style="color: white;"><h3>&ensp;Campus</h3></div><br>
+                            <img src="images/M-201801031000-201806110744.jpg" width="100%" alt="M-201801031000-201806110744">
+                            <a href="#">Committee formed to probe HSC ‘GPA- 5 irregularities’</a><hr/>
+                            <a href="#">Five CoU students nominated for PM Gold Medal</a><hr/>
+                            <a href="#">Nat'l Children and Youth Programming Contest held</a><hr/>
+                            <a href="#">No progress in turning UGC into higher edn commission</a><hr/>
+                        </div>
+                        <a href="#"><img src="images/2000px-Download_on_the_App_Store_Badge.svg.png" width="100%" alt="2000px-Download_on_the_App_Store_Badge.svg"></a><br><br>
+                        <a href="#"><img src="images/android-app-on-google-play.png" width="100%" alt="android-app-on-google-play"></a><br><br>
+                        <a href="#"><img src="images/facebook.png" width="100%" alt="Daily Sun"></a><br><br>
+                        <a href="#"><img src="images/First Security Islami Bank Limited.gif" width="100%" alt="First Security Islami Bank Limited"></a><br><br>
+                        <div class="col-md-12 poll">
+                            <div class="row">
+                                <p id="p">The ACC chairman has ordered all its officials to complete probes by June 30 against individuals or entities appeared in Panama, Paradise Paper leaks. Do you think the probes will be completed in due time?</p>
+                                <form>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td width="5%" style="padding-left: 34px;"><input type="radio" name="pollAnswer" value="pollYes"></td>
+                                                <td style="padding-left: 15px;">Yes</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="5%" style="padding-left: 34px;"><input type="radio" name="pollAnswer" value="pollNo"></td>
+                                                <td style="padding-left: 15px;">No</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="5%" style="padding-left: 34px;"><input type="radio" name="pollAnswer" value="pollNocomments"></td>
+                                                <td style="padding-left: 15px;">No Comments</td>
+                                            </tr>
+                                            <tr>
+                                                <td><input id="pollvote" type="button" name="pollSubmit" value="Vote"></td>
+                                                <td><input id="pollresult" type="button" name="pollResult" value="Result"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br>
+                            <div class="con2col" style="color: white;"><h3>&ensp;corporate corner</h3></div><br>
+                            <a href="#">KOTRA DG visits ACI Office</a><hr/>
+                            <a href="#">Be careful on buying counterfeit Hitachi products</a><hr/>
+                            <a href="#">Bidi Sramik Federation forms human chain in Rajshahi</a><hr/>
+                            <a href="#">Call for collective efforts to strengthen eye care in Cox’s Bazar</a>
+                        </div>
+                        <div class="col-md-12"><br>
+                            <div class="con2col" style="color: white;"><h4>&ensp;Currencies Market</h4></div>&ensp;
+                        </div>
+                        <div class="col-md-12 currencey">
+                            <div class="row" style="font-size: 13px">
+                                <div class="con3col" style="color: white;"><h4 style="margin-top: 3px;">&ensp;Currency Converter</h4></div>                           
+                                <img src="images/bd.png" width="20px" alt="bd">
+                                <label> BDT-Bangladeshi taka ৳ </label>
+                                <input type="text" size="3" value="1.00"/><br>
+                                <img src="images/us.png" width="20px" alt="us">
+                                <label> USD-United State doll&ensp; $</label>
+                                <input type="text" size="3" value="0.012"/><br>
+                                <img src="images/eu.png" width="20px" alt="eu">
+                                <label> EUR-Euro &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; €</label>
+                                <input type="text" size="3" value="0.010"/><br>
+                                <img src="images/gb.png" width="20px" alt="gb">
+                                <label> GBP - British pound &ensp;&ensp;&ensp;£</label>
+                                <input type="text" size="3" value="0.0090"/><br>
+                                <img src="images/jp.png" width="20px" alt="jp">
+                                <label> JPY - Japanese yen &ensp;&ensp;&ensp;¥</label>
+                                <input type="text" size="3" value="1.31"/><br>
+                                <a href="#">June 21, 2018</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12"><br>
+                            <div class="con2col" style="color: white;"><h4>&ensp; Archive</h4></div>&ensp; 
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <select name="month" style="color:#000; font-weight:bold; border:1px solid #BCC5D3;width:125px;">
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option selected="selected" value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">Decmber</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="yrars" style="color:#000; font-weight:bold; border:1px solid #BCC5D3;width:100px;margin-left: 20px">
+                                                <option value="1">2011</option>
+                                                <option value="2">2012</option>
+                                                <option value="3">2013</option>
+                                                <option value="4">2014</option>
+                                                <option value="5">2015</option>                              
+                                                <option value="7">2016</option>
+                                                <option value="8">2017</option>
+                                                <option selected="selected" value="9">2018</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table style="width: 250px; height: auto; text-align: center; color: #000;" cellspacing="6px">
+                                <tbody>
+                                    <tr>
+                                        <th>Sun</th>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri </th>
+                                        <th>Sat</th>
+                                    </tr>
+                                    <tr>
+                                        <td ></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><a href="#" style="color: #000">1</a></td>
+                                        <td><a href="#" style="color: #000">2</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" style="color: #000">3</a></td>
+                                        <td><a href="#" style="color: #000">4</a></td>
+                                        <td><a href="#" style="color: #000">5</a></td>
+                                        <td><a href="#" style="color: #000">6</a></td>
+                                        <td><a href="#" style="color: #000">7</a></td>
+                                        <td><a href="#" style="color: #000">8</a></td>
+                                        <td><a href="#" style="color: #000">9</a></td>                                   
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" style="color: #000">10</a></td>
+                                        <td><a href="#" style="color: #000">11</a></td>
+                                        <td><a href="#" style="color: #000">12</a></td>
+                                        <td><a href="#" style="color: #000">13</a></td>
+                                        <td><a href="#" style="color: #000">14</a></td>
+                                        <td><a href="#" style="color: #000">15</a></td>
+                                        <td><a href="#" style="color: #000">16</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" style="color: #000">17</a></td>
+                                        <td><a href="#" style="color: #000">18</a></td>
+                                        <td><a href="#" style="color: #000">19</a></td>
+                                        <td><a href="#" style="color: #000">20</a></td>
+                                        <td><a href="#" style="color: #000">21</a></td>
+                                        <td><a href="#" style="color: #000">22</a></td>
+                                        <td><a href="#" style="color: #000">23</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" style="color: #000">24</a></td>
+                                        <td><a href="#" style="color: #000">25</a></td>
+                                        <td><a href="#" style="color: #000">26</a></td>
+                                        <td><a href="#" style="color: #000">27</a></td>
+                                        <td><a href="#" style="color: #000">28</a></td>
+                                        <td><a href="#" style="color: #000">29</a></td>
+                                        <td><a href="#" style="color: #000">30</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-12"><br><br>                       
+                            <a href="#"><img src="images/20171222113508.jpg" width="100%" alt="bride_ad"></a><br><br>
+                            <a href="#"><img src="images/ITFlyer.png.jpg" width="100%" alt="IDB-BISEW ad"></a><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <footer class="col-md-offset-1 col-lg-10 col-md-10 col-sm-10">
+            <div class="col-md-6 left">
+                <img src="images/logo.png" width="127px" height="34px" alt="logo">
+                <p>
+                    <b>Editor : Enamul Hoque Chowdhury</b><br>
+                    Published by Maynal Hossain Chowdhury on behalf of East West
+                    Media Group Limited, Plot No: 371/A, Block No: D, Bashundhara R/A,
+                    Baridhara, Dhaka -1229 and Printed at Plot No: C/52, Block-K, Bashundhara,
+                    Khilkhet, Badda, Dhaka.
+                </p>
+            </div>
+            <div class="col-md-6 right"><br><br>
+                <p>
+                    <b>PABX- 09612120000</b>
+                    , 8432361-3 <b>FAX-</b>88-02-8432096, 8432094<br>
+                    <b>Advertisement Phone:</b> 8432046<br>
+                    <b>Advertisement FAX:</b> 8432045
+                </p>
+                <p>
+                    <b>E-mail: Editor:</b>
+                    <a href="mailto:editor@daily-sun.com">editor@daily-sun.com</a>
+                    , Advertisement:
+                    <a href="mailto:advertisement@daily-sun.com">advertisement@daily-sun.com</a>
+                    , Reporting:
+                    <a href="mailto:reporting@daily-sun.com">reporting@daily-sun.com</a>
+                    , National:
+                    <a href="mailto:national@daily-sun.com">national@daily-sun.com</a>
+                    , News:
+                    <a href="mailto:news@daily-sun.com">news@daily-sun.com</a>
+                    , Online:
+                    <a href="mailto:online@daily-sun.com">online@daily-sun.com</a>
+                    , Education:
+                    <a href="mailto:edu@daily-sun.com">edu@daily-sun.com</a>
+                    , Magazine:
+                    <a href="mailto:magazine@daily-sun.com">magazine@daily-sun.com</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
